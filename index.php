@@ -21,7 +21,7 @@
 
 <?php include('header.php');?>
 <div class="Text">
-    <p>Welcome to my website.
+    <p>Welcome to my website. I am setting up some stuff right now.
     </p>
 </div>
 <?php include('footer.php');?>
