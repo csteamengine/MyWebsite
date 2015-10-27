@@ -1,74 +1,13 @@
 html {
-    background: url(Images/technology-791030_640.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-nav{
-    opacity: 0.9; /* opacity [0-1] */
-    -moz-opacity: 0.9; /* opacity [0-1] */
-    -webkit-opacity: 0.9; /* opacity [0-1] */
-}
-.Languages .container .row .col-xs-2{
-    text-align: center;
-}
-.Languages .container .row .col-xs-2 img{
-    height: 100px;
-    width: auto;
-}
-.ID-Me{
-    text-align: center;
-}
-.Languages{
-    text-align: center;
-}
-.Languages img{
-    height: 100px;
-    width: auto;
-}
-.Text{
-    text-align: center;
-}
-footer{
-    text-align: center;
-    padding-top: 10px;
-    color:white;
-    bottom: 0;
-    width: 100%;
-    height: 160px;
-    opacity: .85;
-    background-color: #222222;
-
-}
-footer h4 a:hover, footer p a:hover{
-    color: #a6a2a0;
-}
-footer a{
-    color: white;
-}
-
-#wrapper {
-    width: 100%;
-    max-width: 980px;
-    margin: auto;
-}
-
-
-.footerFloat {
-    width: 25%;
-    float: left;
-}
-
-nav h1{
-    color: black;
-    margin: 5px;
-    text-align: center;
+    margin:0;
 }
 body{
     position:relative;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(34,34,34,.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,6 +15,7 @@ body{
     width:100%;
     height:100%;
     margin:0;
+    padding:0;
 }
 body:after{
     position:fixed;
@@ -84,7 +24,7 @@ body:after{
     left:0;
     right:0;
     bottom:0;
-    background:rgba(255,255,255,0.5);
+    background:rgba(34,34,34,0.5);
     z-index:-1;
 }
 .Text{
@@ -94,53 +34,57 @@ body:after{
     font-size: large;
     text-align: center;
 }
-p{
-    margin: 10px;
-}
-
-.carousel-caption > p {
-    width: 500px;
-    margin: auto;
-
-}
-.authors a{
-    color:black;
-    font-size: x-large;
-    height: 150px;
-}
-.authors p{
-    color: black;
-}
-.row img{
-    height: auto;
-    width: 100%;
-    margin-left: -7px;
-    border-radius: 15px;
-}
-.authors .row img{
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-}
 .Text a{
     color: black;
     font-size: xx-large;
 }
-
-.mainText p{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-hr{
-    margin-top: 0;
-    margin-bottom: 5px;
-    border: 1px solid black;
+.Text{
+    text-align: center;
+    padding-bottom:160px;
 }
 
+/*Footer stuff*/
+footer{
+    position: absolute;
+    text-align: center;
+    padding-top: 10px;
+    color:white;
+    bottom: 0;
+    width: 100%;
+    height: 160px;
+    opacity: .85;
+    background-color: #222222;
+}
+footer h4 a:hover, footer p a:hover{
+    color: #a6a2a0;
+}
+footer a{
+    color: white;
+}
+#wrapper {
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+
+}
+.footerFloat {
+    width: 25%;
+    float: left;
+}
+
+
+/*navbar stuff*/
+.cover-image{
+    height:300px;
+    background-color: rgba(0,0,0,.5);
+}
+.cover-image img{
+    width:100%;
+}
 /* navbar  background color and border color*/
 .navbar-default {
-    background-color: #222222;
-    border-color: #222222;
+    background-color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.5);
     z-index: 9999;
     border-radius: 0;
 }
@@ -215,7 +159,7 @@ hr{
     }
 }
 
-
+/*contact form stuff*/
 #contact-form input, textarea{
     background-color: #222222;
     opacity: .8;

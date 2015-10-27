@@ -23,24 +23,28 @@
         <div id="footer">
             <div class="footerFloat">
                 <h4><a href="index.php" style="text-decoration:underline;">Home</a></h4>
-                <p>Visit my home page for an overview of myself, my website and more!</p>
             </div>
             <div class="footerFloat">
-                <h4><a href="Portfolio.php" style="text-decoration:underline;">Portfolio</a></h4>
-                <p><a href="Websites.php">Websites</a></p>
-                <p><a href="Software.php">Software</a></p>
-                <p><a href="Hardware.php">Hardware</a></p>
+                <div class="dropdown">
+                    <h4><a href="#" style="text-decoration:underline;">Portfolio</a><span class="caret"></span></h4>
+                    <ul class="dropdown-menu" style="text-align: center;">
+                        <li><a href="Websites.php">Websites</a></li>
+                        <li><a href="Software.php">Software</a></li>
+                        <li><a href="Hardware.php">Hardware</a></li>
+                        <li><a href="Documents.php">Documents</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="footerFloat">
                 <h4 style="text-decoration:underline;"><a href="About.php">About</a></h4>
-                <p>Visit this page to learn more about my skills and accomplishments.</p>
             </div>
             <div class="footerFloat">
                 <h4><a href="Contact.php" style="text-decoration:underline;">Contact</a></h4>
-                <p>For any questions regarding my website, don't hesitate to contact me!</p>
             </div>
         </div>
     </div>
+    <p style="margin-top: -25px;">Web Design by StoneStreet Software 2015</p>
+
 
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
