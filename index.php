@@ -21,8 +21,11 @@
 <?php include('header.php');?>
 <div class="Text">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <p>Welcome to my website. I am setting up some stuff right now.
 =======
+=======
+>>>>>>> Stashed changes
     <p>Stonestreet Software</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas egestas eros turpis, sed dignissim quam porta efficitur. Integer fermentum dui odio, vitae volutpat dolor sollicitudin a. Nulla vehicula finibus lorem et pulvinar. Nunc sodales aliquet massa non interdum. Integer ac ante quis nibh blandit mattis. In mollis leo sed varius laoreet. Nunc eget rhoncus massa. Aliquam ut magna risus. Ut a est dolor. Curabitur eu velit nunc. Phasellus dapibus augue sed nunc dictum, quis mattis massa molestie. Integer et ex aliquam, ornare tellus at, placerat nibh. Phasellus mollis, risus id placerat placerat, sapien leo mollis lorem, vel molestie justo neque in velit.
 
@@ -95,6 +98,9 @@
         Praesent tristique maximus ante eu hendrerit. Mauris pellentesque turpis sed efficitur accumsan. Vestibulum at tempor urna. Quisque est arcu, varius eget ipsum ut, pellentesque posuere sem. Pellentesque aliquam metus quis velit egestas pulvinar. Nunc at hendrerit tortor, euismod sollicitudin risus. Suspendisse et dapibus urna. Nulla elit nibh, eleifend non diam ac, posuere pharetra nulla. Aliquam eu nisl non diam convallis lobortis. Maecenas id ex sed enim maximus condimentum quis non orci. Nam ipsum nisi, pellentesque eu imperdiet in, gravida vel diam. Nam cursus purus lorem, sed mattis mauris maximus in. Nulla sagittis, massa non pretium placerat, augue diam lacinia mauris, non luctus metus nibh quis nisl. Vivamus non urna eu felis congue egestas. Suspendisse mattis tempus odio, eu aliquet urna egestas luctus. Curabitur hendrerit finibus nulla.
 
         Nam tempus maximus ipsum, nec gravida dolor accumsan quis. Quisque at tellus id erat bibendum interdum at non massa. Vivamus egestas facilisis est sed condimentum. Etiam blandit risus eget erat vulputate, nec ultrices diam laoreet. Praesent convallis ligula lorem, ac ultricies ante venenatis a. Nam sagittis metus sit amet nibh bibendum maximus quis eu mi. Nam in convallis magna, sit amet blandit est. Aenean sodales in erat sit amet blandit. Nullam at sollicitudin purus, quis interdum metus.
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </p>
 </div>
