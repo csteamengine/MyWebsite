@@ -132,9 +132,9 @@ p{
     margin-right: 10px;
 }
 hr{
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 5px;
-    border: .5px solid black;
+    border: 1px solid black;
 }
 
 /* navbar  background color and border color*/
@@ -142,7 +142,7 @@ hr{
     background-color: #222222;
     border-color: #222222;
     z-index: 9999;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 /*Main Text color and size*/
