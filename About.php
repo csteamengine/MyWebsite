@@ -22,7 +22,7 @@
 <?php include('header.php');?>
 
 <div class="ID-Me">
-    <img src="6220d255154fad0c911a3cb4c0072031.jpg" >
+    <img src="Images/6220d255154fad0c911a3cb4c0072031.jpg" >
     <h1>Gregory Steenhagen</h1>
     <hr style="width: 300px; margin-top: -8px; margin-bottom: -8px;">
     <p>Software Engineering Major at Iowa State University<br>Vice President and Treasurer of the ISU Web Development Club</p>
@@ -46,12 +46,12 @@
         <h1>Languages</h1>
         <hr>
         <div class="row">
-            <div class="col-xs-2"><img src="Java.png"></div>
-            <div class="col-xs-2"><img src="python_logo.png"></div>
-            <div class="col-xs-2"><img src="C++-unofficial.sh-600x600.png"></div>
-            <div class="col-xs-2"><img src="C.png"></div>
-            <div class="col-xs-2"><img src="HTML5_Logo_256.png"></div>
-            <div class="col-xs-2"><img src="css3_logo.png"></div>
+            <div class="col-xs-2"><img src="Images/Java.png"></div>
+            <div class="col-xs-2"><img src="Images/python_logo.png"></div>
+            <div class="col-xs-2"><img src="Images/C++-unofficial.sh-600x600.png"></div>
+            <div class="col-xs-2"><img src="Images/C.png"></div>
+            <div class="col-xs-2"><img src="Images/HTML5_Logo_256.png"></div>
+            <div class="col-xs-2"><img src="Images/css3_logo.png"></div>
         </div>
     </div>
 </div>

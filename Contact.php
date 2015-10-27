@@ -21,7 +21,34 @@
 
 <?php include('header.php');?>
 <div class="Text">
-    <h1>Contact Page</h1>
+    <h1 style="text-decoration: underline;">Gregory Steenhagen</h1>
+    <p><strong>Email:</strong> gcs@iastate.edu</p>
+    <p><strong>Alt. Email:</strong> csteen@stonestreetsoftware.com</p>
+    <p><br>You can either use this contact form, or send me an email with your own email client.</p>
+    <div class="contactform">
+        <form id="contact-form" name="contact-form" method="post" action="form-processing.php">
+            <p>
+                <label><br />
+                    <input name="Name" type="text" id="FName" size="48" placeholder="Name"/>
+                </label>
+            </p>
+            <p>
+                <label><br />
+                    <input name="Email" type="text" id="Email" size="48" placeholder="Email"/>
+                </label>
+            </p>
+            <p>
+                <label><br />
+                    <textarea name="Message" id="Message" cols="50" rows="7" placeholder="Message"></textarea>
+                </label>
+            </p>
+            <p>
+                <label class="sbutton">
+                    <input name="button" type="submit" class="submit-button" id="button" value="Send"  />
+                </label>
+            </p>
+        </form>
+    </div>
 </div>
 <?php include('footer.php');?>
 

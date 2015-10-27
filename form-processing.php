@@ -9,14 +9,14 @@ while (list($key, $val) = @each($_SESSION)) $GLOBALS[$key] = $val;
 /* Subject and Email Variables */
 
 	$emailSubject = 'Contact Form';
-	$webMaster = 'gcs@iastate.edu';
-	
+	$webMaster = 'csteen@stonestreetsoftware.com';
+
 /* Gathering Data Variables */
 
 	$nameField = $_POST['Name'];
 	$emailField = $_POST['Email'];
 	$messageField = $_POST['Message'];
-	
+
 	$body = <<<EOD
 <br><hr><br>
 Name: $nameField <br>
@@ -24,10 +24,10 @@ Email: $emailField <br>
 Message: $messageField <br>
 EOD;
 
-	$headers = "From: $email\r\n";
+	$headers = "From: $emailField\r\n";
 	$headers .= "Content-type: text/html\r\n";
 	$success = mail($webMaster, $emailSubject, $body, $headers);
-	
+
 /* Results Rendered as HTML */
 
 	$theResults = <<<EOD
@@ -35,7 +35,7 @@ EOD;
 <head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><br />
-<meta HTTP-EQUIV="REFRESH" content="0; url=index.php">
+<meta HTTP-EQUIV="REFRESH" content="0; url=thanks.php">
 <style type="text/css">
 <!--
 body {
