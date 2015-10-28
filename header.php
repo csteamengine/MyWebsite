@@ -2,7 +2,7 @@
 <body>
 
 <nav class="navbar navbar-default" role="navigation">
-    <div class="cover-background">
+    <div class="cover-background" >
         <div class="cover-image">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -13,7 +13,7 @@
                 </button>
             </div>
 
-            <div class="collapse navbar-collapse  navbar-ex1-collapse">
+            <div class="collapse navbar-collapse  navbar-ex1-collapse navbar-left">
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Home</a></li>
                     <li class="dropdown">

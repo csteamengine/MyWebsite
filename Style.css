@@ -60,7 +60,6 @@ footer a{
     width: 100%;
     max-width: 980px;
     margin: auto;
-
 }
 .footerFloat {
     width: 25%;
@@ -68,14 +67,16 @@ footer a{
 }
 
 
+
+
+/*navbar stuff*/
 .cover-background{
     background-image: url(Images/technology-791030_640.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-/*navbar stuff*/
 .cover-image{
-    height: 40vh;
+    height: 50vh;
     background-color: rgba(0,0,0,.7);
     z-index: -9999;
 }
@@ -86,8 +87,8 @@ footer a{
     border-color: rgba(0,0,0,.5);
     z-index: 9999;
     border-radius: 0;
-}
 
+}
 /*Main Text color and size*/
 .navbar-default .navbar-nav > li > a{
     color: white;
@@ -120,12 +121,12 @@ footer a{
 .dropdown:hover .dropdown-menu {
     display: block;
     opacity: 1;
-    background-color: #222222;
+    background-color: rgba(0,0,0,0);
 }
 
 /*Selected Dropdown background Color*/
 .dropdown .dropdown-menu{
-    background-color: #222222;
+    background-color: rgba(0,0,0,0);
 }
 
 .dropdown:hover .dropdown-menu > li > a{
@@ -136,7 +137,7 @@ footer a{
 }
 /* Dropdown hover color*/
 .dropdown:hover .dropdown-menu > li > a:hover{
-    background-color: #222222;
+    background-color: rgba(0,0,0,0);
     color: #a6a2a0;
 }
 
@@ -146,7 +147,7 @@ footer a{
 .navbar .nav > li.dropdown.open.active > .dropdown-toggle{
     color: white;
     text-decoration: underline;
-    background: #222222;
+    background: rgba(0,0,0,.5);
 }
 
 @media (min-width: 768px){
@@ -160,10 +161,10 @@ footer a{
 
 /*contact form stuff*/
 #contact-form input, textarea{
-    background-color: #222222;
+    background-color: white;
     opacity: .8;
-    color: white;
-    border-color: #222222;
+    color: black;
+    border-color: gray;
 }
 #contact-form .submit-button{
     border-color: #222222;
