@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Contact | Stonestreet</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Contact | Steenhagen</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,8 +17,6 @@
     <![endif]-->
     <link href="Style.css" rel="stylesheet">
 </head>
-<body>
-
 <?php include('header.php');?>
 <div class="Text">
     <h1 style="text-decoration: underline;">Gregory Steenhagen</h1>
@@ -51,7 +49,3 @@
     </div>
 </div>
 <?php include('footer.php');?>
-
-
-</body>
-</html>
