@@ -20,9 +20,9 @@
                         <a href="Portfolio.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="Websites.php">Websites</a></li>
-                            <li role="" class="divider"></li>
+                            <li role="separator" class="divider"></li>
                             <li><a href="Software.php">Software</a></li>
-                            <li role="" class="divider"></li>
+                            <li role="separator" class="divider"></li>
                             <li><a href="Hardware.php">Hardware</a></li>
                         </ul>
                     </li>

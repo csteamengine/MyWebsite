@@ -125,41 +125,5 @@
 <div class="HireMe">
     <p>Want to hire me today? &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="btn">Contact Me</button></p>
 </div>
-<<<<<<< Updated upstream
-=======
-<script src="js/jquery-1.9.1.min.js"></script>
-<script src="js/modernizr.js"></script>
-<script>
-    $(document).ready(function(){
-        if (Modernizr.touch) {
-            // show the close overlay button
-            $(".close-overlay").removeClass("hidden");
-            // handle the adding of hover class when clicked
-            $(".img").click(function(e){
-                if (!$(this).hasClass("hover")) {
-                    $(this).addClass("hover");
-                }
-            });
-            // handle the closing of the overlay
-            $(".close-overlay").click(function(e){
-                e.preventDefault();
-                e.stopPropagation();
-                if ($(this).closest(".img").hasClass("hover")) {
-                    $(this).closest(".img").removeClass("hover");
-                }
-            });
-        } else {
-            // handle the mouseenter functionality
-            $(".img").mouseenter(function(){
-                $(this).addClass("hover");
-            })
-                // handle the mouseleave functionality
-                .mouseleave(function(){
-                    $(this).removeClass("hover");
-                });
-        }
-    });
-</script>
->>>>>>> Stashed changes
 <?php include('footer.php');?>
 
