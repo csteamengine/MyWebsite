@@ -20,6 +20,7 @@
     <link href="css/index.css" rel="stylesheet">
 </head>
 <?php include('header.php');?>
+
 <div class="Text">
     <h1>A little about me</h1>
     <p>I am a Software engineering major at Iowa State University and I'm currently in my Junior year. I am the Vice President,
@@ -83,10 +84,10 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
-        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
-        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
-        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/KellySlalom.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/NickNMe.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Megalodon.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Wakeboard.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
     </div>
@@ -98,7 +99,6 @@
         <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
     </div>
-
 </div>
 
 
@@ -135,3 +135,5 @@
     });
 </script>
 <?php include('footer.php');?>
+<script>
+</script>
