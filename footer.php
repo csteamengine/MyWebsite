@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <p>Web Design by StoneStreet Software 2015</p>
+    <p>Web Design by Gregory Steenhagen 2015</p>
 
 
 </footer>
