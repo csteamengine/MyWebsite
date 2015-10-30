@@ -100,7 +100,8 @@ footer a{
     .cover-background {
         background-image: url(Images/apple-iphone-smartphone-desk.jpg);
         background-size: 100%;
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: auto;
         height: 40vh
     }
     .cover-image{
