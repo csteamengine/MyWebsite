@@ -31,5 +31,8 @@
                 </ul>
             </div>
         </div>
+        <div class="logo">
+            <img src="Images/OneSLogo.png">
+        </div>
     </div>
 </nav>
