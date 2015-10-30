@@ -1,0 +1,223 @@
+/* ============================================================
+  Recent Projects effects.
+============================================================ */
+/*One Picture*/
+.effects1 {
+    padding-left: 15px;
+}
+.effects1 .img img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+.effects1 .img p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+/*Three pictures*/
+.effects {
+    padding-left: 15px;
+}
+.effects .img {
+    position: relative;
+    float: left;
+    margin-bottom: 40px;
+    width: 30%;
+    overflow: hidden;
+}
+.effects .img:nth-child(n) {
+    margin-right: 3%;
+}
+.effects .img:first-child {
+    margin-left: 1.4%;
+}
+.effects .img:last-child {
+    margin-right: 0;
+}
+.effects .img img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+.effects .img p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.overlay {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a.close-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    background-color: #000;
+    cursor: pointer;
+}
+a.close-overlay.hidden {
+    display: none;
+}
+
+a.expand {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    border: solid 5px white;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+}
+a.expand:hover{
+    color: gray;
+    border-color: gray;
+}
+#effect-5 .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+#effect-5 .overlay a.expand {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#effect-5 .img.hover .overlay {
+    opacity: 1;
+}
+#effect-5 .img.hover .overlay a.expand {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+}
+/* ============================================================
+  Recent Projects effects END.
+============================================================ */
+
+.HireMe{
+    width: 100%;
+    margin-bottom: -50px;
+    background-color: #222222;
+    text-align:center;
+    height: 80px;
+    font-size: 20px;
+    color: white;
+    opacity: .95;
+}
+.HireMe p{
+    padding-top: 15px;
+}
+.HireMe button{
+    background-color: #222222;
+    border-color: white;
+    height: 50px;
+}
+.HireMe button:hover{
+    color: #a6a2a0;
+    border-color: #a6a2a0;
+}
+
+
+
+/*navbar stuff*/
+/*Mobile vs Desktop*/
+@media (min-width: 300px) {
+    .effects1 .img {
+        position: relative;
+        float: left;
+        margin-bottom: 20px;
+        width: 75%;
+        overflow: hidden;
+    }
+    .effects1 .img:first-child {
+        margin-left: 12.5%;
+    }
+    .container-fluid{
+        text-align: center;
+        margin-left: -10px;
+        width: 100%;
+    }
+    .container-fluid img{
+        height: 75px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 925px) {
+    .effects1 .img {
+        position: relative;
+        float: left;
+        margin-bottom: 20px;
+        width: 50%;
+        overflow: hidden;
+    }
+    .effects1 .img:first-child {
+        margin-left: 25%;
+    }
+    .container-fluid{
+        text-align: center;
+        margin: auto;
+        width: 77%;
+    }
+    .container-fluid img{
+        height: 100px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+}

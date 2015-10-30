@@ -42,7 +42,7 @@
     the Vice President and Treasurer. </p>
 </div>
 <div class="Languages">
-    <div class="container">
+    <div class="container-fluid">
         <h1>Languages</h1>
         <hr>
         <div class="row">

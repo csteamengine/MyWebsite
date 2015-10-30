@@ -17,8 +17,10 @@
 
     <![endif]-->
     <link href="Style.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 </head>
 <?php include('header.php');?>
+
 <div class="Text">
     <h1>A little about me</h1>
     <p>I am a Software engineering major at Iowa State University and I'm currently in my Junior year. I am the Vice President,
@@ -77,16 +79,30 @@
         We spent less than $10 on the robot and won over $500 in prizes.
     </p>
     <hr>
-    <h1>A Brief Look at My Life</h1>
+    <h1>A Look Into My Life</h1>
 </div>
-<p id="img_cont">
-    <a href="#"><img src="Images/apple-laptop-notebook-notes.jpg" /></a>
-    <a href="#"><img src="Images/apple-laptop-notebook-notes.jpg" /></a>
-    <a href="#"><img src="Images/apple-laptop-notebook-notes.jpg" /></a>
-    <a href="#"><img src="Images/apple-laptop-notebook-notes.jpg" /></a>
-    <a href="#"><img src="Images/apple-laptop-notebook-notes.jpg" /></a>
-    <a href="#"><img src="Images/apple-laptop-notebook-notes.jpg" /></a>
-</p>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/KellySlalom.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/NickNMe.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Megalodon.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Wakeboard.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+    </div>
+</div>
+
+
+
 <div class="Text">
     <hr>
 </div>
@@ -98,22 +114,14 @@
 <script>
     $(document).ready(function(){
         if (Modernizr.touch) {
-            // show the close overlay button
-            $(".close-overlay").removeClass("hidden");
+
             // handle the adding of hover class when clicked
             $(".img").click(function(e){
                 if (!$(this).hasClass("hover")) {
                     $(this).addClass("hover");
                 }
             });
-            // handle the closing of the overlay
-            $(".close-overlay").click(function(e){
-                e.preventDefault();
-                e.stopPropagation();
-                if ($(this).closest(".img").hasClass("hover")) {
-                    $(this).closest(".img").removeClass("hover");
-                }
-            });
+
         } else {
             // handle the mouseenter functionality
             $(".img").mouseenter(function(){
@@ -127,3 +135,5 @@
     });
 </script>
 <?php include('footer.php');?>
+<script>
+</script>

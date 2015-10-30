@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <title>Contact | Stonestreet</title>
     <meta charset="utf-8">
@@ -26,23 +26,23 @@
     <div class="contactform">
         <form id="contact-form" name="contact-form" method="post" action="form-processing.php">
             <p>
-                <label><br />
-                    <input name="Name" type="text" id="FName" size="48" placeholder="Name"/>
+                <label>
+                    <textarea name="Name" id="FName" cols="50" rows="1" placeholder="Name"></textarea>
                 </label>
             </p>
             <p>
-                <label><br />
-                    <input name="Email" type="text" id="Email" size="48" placeholder="Email"/>
+                <label>
+                    <textarea name="Email" id="Email" cols="50" rows="1" placeholder="Email"></textarea>
                 </label>
             </p>
             <p>
-                <label><br />
+                <label>
                     <textarea name="Message" id="Message" cols="50" rows="7" placeholder="Message"></textarea>
                 </label>
             </p>
             <p>
                 <label class="sbutton">
-                    <input name="button" type="submit" class="submit-button" id="button" value="Send"  />
+                    <input name="button" type="submit" class="btn" id="button" value="Send"  />
                 </label>
             </p>
         </form>
