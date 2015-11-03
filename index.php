@@ -84,8 +84,8 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/KellySlalom.jpg"></div>
-        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/NickNMe.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/KellySlalomCropped.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/NickNMeCropped.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Megalodon.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Wakeboard.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
@@ -107,7 +107,7 @@
     <hr>
 </div>
 <div class="HireMe">
-    <p>Want to hire me today? &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="btn">Contact Me</button></p>
+    <p>Want to hire me today? &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button class="btn" style="font-size: 18px;">Contact Me</button></p>
 </div>
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/modernizr.js"></script>
