@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="faviconblack.png">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,6 +21,8 @@
     <link href="css/index.css" rel="stylesheet">
 </head>
 <?php include('header.php');?>
+
+
 
 <div class="Text">
     <h1>A little about me</h1>
@@ -87,7 +90,7 @@
         <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/KellySlalomCropped.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/NickNMeCropped.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Megalodon.jpg"></div>
-        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Wakeboard.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/WakeboardCropped.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
     </div>
