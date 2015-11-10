@@ -37,24 +37,21 @@
 
         <img src="Images/apple-desk-office-technology.jpg" alt="">
         <div class="overlay">
-            <p>Project Name</p>
-            <a href="Portfolio.php" class="expand">+</a>
+            <a href="Portfolio.php" class="expand">Project 1</a>
             <a class="close-overlay hidden">x</a>
         </div>
     </div>
     <div class="img">
         <img src="Images/apple-desk-office-technology.jpg" alt="">
         <div class="overlay">
-            <p>Project Name</p>
-            <a href="Portfolio.php" class="expand">+</a>
+            <a href="Portfolio.php" class="expand">Project 2</a>
             <a class="close-overlay hidden">x</a>
         </div>
     </div>
     <div class="img">
         <img src="Images/apple-desk-office-technology.jpg" alt="">
         <div class="overlay">
-            <p>Project Name</p>
-            <a href="Portfolio.php" class="expand">+</a>
+            <a href="Portfolio.php" class="expand">Project 3</a>
             <a class="close-overlay hidden">x</a>
         </div>
     </div>
@@ -69,8 +66,7 @@
     <div class="img">
         <img src="Images/apple-desk-office-technology.jpg" alt="">
         <div class="overlay">
-            <p>Project Name</p>
-            <a href="Portfolio.php" class="expand">+</a>
+            <a href="Portfolio.php" class="expand">Read More</a>
             <a class="close-overlay hidden">x</a>
         </div>
     </div>
@@ -91,7 +87,7 @@
         <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/NickNMeCropped.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/Megalodon.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/PicsOfMe/WakeboardCropped.jpg"></div>
-        <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
+        <div class="col-md-2 col-xs-4"><img src="Images/Slopes1.jpg"></div>
         <div class="col-md-2 col-xs-4"><img src="Images/apple-laptop-notebook-notes.jpg"></div>
     </div>
     <div class="row">
