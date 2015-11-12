@@ -97,16 +97,17 @@ footer a{
         margin-left: 5px;
         margin-right: 5px;
     }
-    .cover-background {
-        background-image: url(Images/apple-iphone-smartphone-desk.jpg);
-        background-size: 100%;
-        overflow-x: hidden;
-        overflow-y: auto;
-        height: 40vh
-    }
+    /*.cover-background {*/
+        /*background-image: url(Images/apple-iphone-smartphone-desk.jpg);*/
+        /*background-size: 100%;*/
+        /*overflow-x: hidden;*/
+        /*overflow-y: auto;*/
+        /*height: 40vh*/
+
+    /*}*/
     .cover-image{
         height: 50vh;
-        background-color: rgba(0,0,0,.7);
+        background-color: rgba(0,0,0,.5);
         z-index: -9999;
 
     }
@@ -131,28 +132,28 @@ footer a{
     }
 }
 @media only screen and (device-width: 768px) {
-    .cover-background {
-        background-image: url(Images/apple-iphone-smartphone-desk.jpg);
-        height: 40vh;
-        overflow: hidden;
-    }
+    /*.cover-background {*/
+        /*background-image: url(Images/apple-iphone-smartphone-desk.jpg);*/
+        /*height: 40vh;*/
+        /*overflow: hidden;*/
+    /*}*/
     .cover-image{
         height: 40vh;
-        background-color: rgba(0,0,0,.7);
+        background-color: rgba(0,0,0,.5);
         z-index: -9999;
         overflow: hidden;
     }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-    .cover-background {
-        background-image: url(Images/apple-iphone-smartphone-desk.jpg);
-        height: 40vh;
-        overflow: hidden;
-    }
+    /*.cover-background {*/
+        /*background-image: url(Images/apple-iphone-smartphone-desk.jpg);*/
+        /*height: 40vh;*/
+        /*overflow: hidden;*/
+    /*}*/
     .cover-image{
         height: 40vh;
-        background-color: rgba(0,0,0,.7);
+        background-color: rgba(0,0,0,.5);
         z-index: -9999;
         overflow: hidden;
     }
@@ -167,7 +168,7 @@ footer a{
     }
     .cover-image{
         height: 50vh;
-        background-color: rgba(0,0,0,.7);
+        background-color: rgba(0,0,0,.5);
         z-index: -9999;
         overflow: hidden;
     }}
@@ -183,15 +184,15 @@ footer a{
         margin-left: 50px;
         margin-right: 50px;
     }
-    .cover-background {
-        background-image: url(Images/apple-iphone-smartphone-desk.jpg);
-        background-position-y: -300px;
-        height: 50vh;
-        overflow: hidden;
-    }
+    /*.cover-background {*/
+        /*background-image: url(Images/apple-iphone-smartphone-desk.jpg);*/
+        /*background-position-y: -300px;*/
+        /*height: 50vh;*/
+        /*overflow: hidden;*/
+    /*}*/
     .cover-image{
         height: 50vh;
-        background-color: rgba(0,0,0,.7);
+        background-color: rgba(0,0,0,.5);
         z-index: -9999;
         overflow: hidden;
     }
@@ -227,7 +228,7 @@ footer a{
     border-color: rgba(0,0,0,.5);
     z-index: 9999;
     border-radius: 0;
-
+    box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 /*Main Text color and size*/
 

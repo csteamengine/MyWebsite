@@ -34,7 +34,6 @@
 </div>
 <div id="effect-5" class="effects clearfix">
     <div class="img">
-
         <img src="Images/apple-desk-office-technology.jpg" alt="">
         <div class="overlay">
             <a href="Portfolio.php" class="expand">Project 1</a>
