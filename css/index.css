@@ -1,4 +1,209 @@
-/* ============================================================
+
+
+.HireMe{
+    width: 100%;
+    margin-bottom: -50px;
+    background-color: #222222;
+    text-align:center;
+    height: 80px;
+    font-size: 20px;
+    color: white;
+    opacity: .95;
+}
+.HireMe p{
+    padding-top: 15px;
+}
+.HireMe button{
+    background-color: #222222;
+    border-color: white;
+    height: 50px;
+}
+.HireMe button:hover{
+    color: #a6a2a0;
+    border-color: #a6a2a0;
+}
+/*navbar stuff*/
+/*Mobile vs Desktop*/
+@media (min-width: 300px) {
+    .effects1 .img {
+        position: relative;
+        float: left;
+        margin-bottom: 20px;
+        width: 75%;
+        overflow: hidden;
+    }
+    .effects1 .img:first-child {
+        margin-left: 12.5%;
+    }
+    .container-fluid{
+        text-align: center;
+        margin-left: -10px;
+        width: 100%;
+    }
+    .container-fluid img{
+        height: 75px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #Life {
+        background: url(../Images/apple-iphone-smartphone-desk.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+        height: 75vh;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+    }
+    #Life article {
+        background-color: rgba(255,255,255, .5 );
+        margin-top: -150px;
+        height: 75vh;
+        position: absolute;
+        text-align: center;
+        top: 150px;
+        width: 100%;
+    }
+    #Life article .container-fluid{
+        margin-top: 10vh;
+    }
+    #home {
+        background: url(../Images/apple-iphone-smartphone-desk.jpg) 50% 0 no-repeat fixed;
+        background-position-y: -300px;
+        background-size: cover;
+        height: 40vh;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+    }
+
+    #home article {
+        height: 40vh;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (min-width: 925px) {
+    .effects1 .img {
+        position: relative;
+        float: left;
+        margin-bottom: 20px;
+        width: 50%;
+        overflow: hidden;
+    }
+    .effects1 .img:first-child {
+        margin-left: 25%;
+    }
+    .container-fluid{
+        text-align: center;
+        margin: auto;
+        width: 77%;
+    }
+    .container-fluid img{
+        height: 100px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #Life {
+        background: url(../Images/apple-iphone-smartphone-desk.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
+        min-height: 50vh;
+        height: 50vh;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+
+    }
+    #Life article {
+        background-color: rgba(255,255,255, .5 );
+        margin-top: -150px;
+        height: 50vh;
+        position: absolute;
+        text-align: center;
+        top: 150px;
+        width: 100%;
+    }
+    #Life article .container-fluid{
+        margin-top: 10vh;
+    }
+    #home {
+        background: url(../Images/apple-iphone-smartphone-desk.jpg) 50% 0 no-repeat fixed;
+        background-position-y: -300px;
+        background-size: cover;
+        min-height: 50vh;
+        height: 50vh;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1920px;
+        position: relative;
+    }
+
+    #home article {
+        height: 50vh;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.About{
+    text-align: center;
+    height: 50vh;
+    z-index: 9999;
+    position: relative;
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8),0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.8), 0 0 -50px rgba(0,0,0,0.8);
+}
+.About .Text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#projects {
+    background: url(../Images/apple-laptop-notebook-notes.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    min-height: 50vh;
+    height: 50vh;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+}
+
+#projects article {
+    background-color: rgba(255,255,255, .5 );
+    margin-top: -150px;
+    height: 50vh;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+}
+
+#projects article .Text{
+    margin-top: 150px;
+}
+.accomplishments{
+    text-align: center;
+    height: 50vh;
+    z-index: 9999;
+    position: relative;
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8),0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.8), 0 0 -50px rgba(0,0,0,0.8);
+}
+.accomplishments .Text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}/* ============================================================
   Recent Projects effects.
 ============================================================ */
 /*One Picture*/
@@ -170,54 +375,3 @@ a.expand:hover{
     border-color: #a6a2a0;
 }
 
-
-
-/*navbar stuff*/
-/*Mobile vs Desktop*/
-@media (min-width: 300px) {
-    .effects1 .img {
-        position: relative;
-        float: left;
-        margin-bottom: 20px;
-        width: 75%;
-        overflow: hidden;
-    }
-    .effects1 .img:first-child {
-        margin-left: 12.5%;
-    }
-    .container-fluid{
-        text-align: center;
-        margin-left: -10px;
-        width: 100%;
-    }
-    .container-fluid img{
-        height: 75px;
-        width: auto;
-        margin-bottom: 20px;
-    }
-
-}
-
-@media (min-width: 925px) {
-    .effects1 .img {
-        position: relative;
-        float: left;
-        margin-bottom: 20px;
-        width: 50%;
-        overflow: hidden;
-    }
-    .effects1 .img:first-child {
-        margin-left: 25%;
-    }
-    .container-fluid{
-        text-align: center;
-        margin: auto;
-        width: 77%;
-    }
-    .container-fluid img{
-        height: 100px;
-        width: auto;
-        margin-bottom: 20px;
-    }
-
-}

@@ -1,0 +1,69 @@
+body{
+    color: black;
+}
+#home {
+    background: url(../Images/apple-iphone-smartphone-desk.jpg) 50% 0 no-repeat fixed;
+    background-position-y: -300px;
+    background-size: cover;
+    min-height: 50vh;
+    height: 50vh;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+}
+
+#home article {
+    height: 50vh;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+
+#about {
+    background-color: white;
+    background-size: cover;
+    min-height: 50vh;
+    height: 50vh;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about article {
+    height: 50vh;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    margin-top: -50px;
+    width: 100%;
+}
+#projects {
+    background: url(../Images/apple-laptop-notebook-notes.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    min-height: 50vh;
+    height: 50vh;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#projects article {
+    background-color: rgba(255,255,255, .5 );
+    margin-top: -150px;
+    height: 50vh;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+}
+#projects article .Text{
+    margin-top: 150px;
+}
